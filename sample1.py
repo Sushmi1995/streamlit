@@ -13,3 +13,11 @@ a soft return is used for the next line.
 Two (or more) newline characters in a row will result in a hard return.
 '''
 st.markdown(multi)
+
+
+
+with st.chat_message("user"):
+    st.write("Hello 👋")
+msg= st.chat_input("type here")
+if msg:
+    st.write(f"hello Gm:\n {msg}")
